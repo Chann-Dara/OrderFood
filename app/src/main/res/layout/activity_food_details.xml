@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetails"
+    android:padding="15dp"
+    android:background="@color/material_dynamic_neutral50">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/textTitle_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Name"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_below="@+id/textTitle_detail"
+        android:id="@+id/imageFood_detail"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/food01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textPrice_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageFood_detail"/>
+    <TextView
+        android:id="@+id/textCode_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="code"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textPrice_detail"/>
+
+    <Button
+        android:id="@+id/btnAdd_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textCode_detail"
+        android:layout_marginTop="50dp"
+        android:text="Add More Food" />
+    <Button
+        android:id="@+id/btnEdit_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAdd_detail"
+        android:layout_marginTop="5dp"
+        android:text="Update Food List" />
+    <Button
+        android:id="@+id/btnDelete_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnEdit_detail"
+        android:layout_marginTop="5dp"
+        android:text="Delete" />
+
+</RelativeLayout>

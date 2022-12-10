@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodList"
+    android:padding="25dp"
+    android:background="@color/dark_grey">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtFoodName"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD ALL IN LIST"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:background="@drawable/bg_box"
+        android:id="@+id/listFood"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/txtFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"/>
+    <!--        tools:listitem="@layout/rows"/>-->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listFood"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:text="back" />
+<!--    <Button-->
+<!--        android:id="@+id/buttonSignout"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/listFood"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:layout_marginEnd="0dp"-->
+<!--        android:text="signout" />-->
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "660362679117",
+    "project_id": "appdatmonan",
+    "storage_bucket": "appdatmonan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660362679117:android:681ed1c826fcb89216dd04",
+        "android_client_info": {
+          "package_name": "com.abc.appdatmonan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660362679117-luu28ccj5n8dhl6hj501338t8nqq7p0v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtn2oR-j_Z0_1FYgQpPxW3Z2mHZGwdNdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660362679117-luu28ccj5n8dhl6hj501338t8nqq7p0v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
